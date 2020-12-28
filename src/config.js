@@ -11,7 +11,7 @@ var config = {
     footer: 'Source: FURAT',
     chapters: [
         {
-            id: 'chapter1',
+            id: 'chapter-1',
             alignment: 'left',
             hidden: false,
             title: 'Al-Hasakah City',
@@ -41,7 +41,7 @@ var config = {
             ]
         },
         {
-            id: 'chapter2',
+            id: 'chapter-2',
             alignment: 'right',
             hidden: false,
             title: 'Deir Ezzor Province',
@@ -71,7 +71,7 @@ var config = {
             ]
         },
         {
-            id: 'chapter3',
+            id: 'chapter-3',
             alignment: 'right',
             hidden: false,
             title: 'Suwar Canal',
