@@ -24,8 +24,8 @@ var config = {
                 bearing: 0
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
+            // rotateAnimation: false,
+            // callback: '',
             onChapterEnter: [
                 // {
                 //     layer: 'layer-name',
@@ -86,12 +86,17 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: true,
             callback: '',
-            onChapterEnter: [],
+            onChapterEnter: [
+              {
+                  layer: 'al-suwar-canal',
+                  opacity: 1
+              }
+            ],
             onChapterExit:  [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
+                {
+                    layer: 'al-suwar-canal',
+                    opacity: 0
+                }
             ]
         }
     ]
